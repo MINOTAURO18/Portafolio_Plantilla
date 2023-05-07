@@ -425,6 +425,9 @@ html{
   }
 
   .seccion-uno{
+    min-height: 90vh;
+    height: auto;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
