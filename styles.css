@@ -65,7 +65,7 @@ html{
 .seccion-uno{
   width: 100%;
   height: 90vh;
-  padding: 0 10%;
+  padding: 5% 10%;
 }
 
 .seccion-uno .intro{
@@ -120,8 +120,8 @@ html{
   background-color: rgb(238, 197, 239);
   width: 100%;
   height: auto;
-  padding: 0 10%;
-  min-height: 90vh;
+  padding: 10% 10%;
+  min-height: 100vh;
   width: auto;
   display: flex;
   flex-wrap: wrap;
@@ -351,7 +351,7 @@ html{
   align-items: center;
   gap: 60px;
   flex-wrap: wrap;
-  
+
 }
 
 .footer .redes img{
