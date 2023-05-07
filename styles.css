@@ -31,6 +31,10 @@ html{
   align-items: center;
 }
 
+.mobile{
+  display: none;
+}
+
 .header .logo{
   font-size: 1.8rem;
   color: white;
@@ -151,7 +155,7 @@ html{
 
 .seccion-dos .padre img:hover{
   left: 1%;
-  bottom: 7%;
+  bottom: 7.5%;
 }
 
 .seccion-dos .parrafo{
@@ -211,20 +215,20 @@ html{
   width: 295px;
   height: 295px;
   border: 6px solid rgb(255, 255, 255);
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 .seccion-tres .padre img{
   position: relative;
-  left: 4%;
-  bottom: 7%;
-  border-radius: 7px;
+  left: 3%;
+  bottom: 9%;
+  border-radius: 10px;
   transition: all .2s ease-in-out;
 }
 
 .seccion-tres .padre img:hover{
-  left: 2%;
-  bottom: 5%;
+  left: 1%;
+  bottom: 7%;
 }
 
 .seccion-tres .p_1{
@@ -343,6 +347,10 @@ html{
   min-height: 30vh;
   height: auto;
   padding: 5% 10% 1% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer .redes{
@@ -371,6 +379,87 @@ html{
   margin-top: 20px;
   color: white;
   font-size: 1rem;
+}
+
+
+@media (max-width: 650px){
+   .header {
+    display: none;
+   }
+
+   .mobile{
+    display: flex;
+   }
+
+   
+  
+  .mobile{
+    z-index: 9;
+    background-color: #260246;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+   }
+   
+   .mobile img{
+    filter: invert(36%) sepia(98%) saturate(5714%) hue-rotate(292deg) brightness(98%) contrast(136%);
+   }
+
+   .header.scrolled {
+    background-color:none;
+  }
+
+  
+
+  .footer{
+    padding-bottom: 10vh;
+  }
+
+  .seccion-uno{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .seccion-uno .botones{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .seccion-dos{
+    gap: 0;
+  }
+
+  .seccion-dos .padre{
+    margin-right: 7%;
+  }
+
+  .seccion-dos .parrafo{
+    margin-bottom: 40%;
+    text-align: justify;
+  }
+
+  .seccion-dos .parrafo h2{
+    text-align: center;
+  }
+
+  .seccion-dos .parrafo .redes{
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
 }
 
 
