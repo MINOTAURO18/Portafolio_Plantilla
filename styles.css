@@ -83,7 +83,7 @@ html{
 
 .seccion-uno .intro .full{
   font-size: 3.5rem;
-  max-width: 500px;
+  max-width: 520px;
   color: white;
   cursor: default;
 }
@@ -364,6 +364,11 @@ html{
 
 .footer .redes img{
   filter: invert(100%) sepia(40%) saturate(0%) hue-rotate(151deg) brightness(112%) contrast(102%);
+  transition: all .2s ease-in-out;
+}
+
+.footer .redes img:hover{
+  transform: translateY(-3px);
 }
 
 .footer .redes span{
