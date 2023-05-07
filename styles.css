@@ -430,6 +430,8 @@ html{
     text-align: center;
   }
 
+  
+
   .seccion-uno .botones{
     justify-content: center;
     align-items: center;
@@ -457,6 +459,36 @@ html{
     align-items: center;
     justify-content: center;
   }
+
+  .seccion-tres .padre {
+    margin-right: 6%;
+  }
+  .seccion-tres .p_1{
+    gap: 30px;
+  }
+
+  .seccion-tres .parrafo{
+    text-align: justify;
+  }
+
+  .seccion-tres .parrafo h2{
+    text-align: center;
+  }
+
+  .seccion-tres .parrafo {
+     justify-content: center;
+     align-items: center;
+  }
+
+  .seccion-cuatro .habilidades img{
+    width: 60px;
+  }
+
+  .footer{
+    height: 40vh;
+  }
+
+
   
 
 
