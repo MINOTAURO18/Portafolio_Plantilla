@@ -204,7 +204,7 @@ html{
   padding: 10%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 80px;
 }
 
 .seccion-tres .padre{
@@ -231,7 +231,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 100px;
   flex-wrap: wrap;
 }
 
@@ -301,6 +301,10 @@ html{
   min-height: 60vh;
   height: auto;
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion-cuatro .habilidades{
@@ -308,11 +312,11 @@ html{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
 }
 
 .seccion-cuatro .habilidades img{
-  width: 100px;
+  width: 80px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -343,8 +347,11 @@ html{
 
 .footer .redes{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  
 }
 
 .footer .redes img{
